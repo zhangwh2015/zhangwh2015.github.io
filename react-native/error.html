@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>react-native</title>
+    <link rel="Stylesheet" type="text/css" href="./index.css" />
+</head>
+<body>
+
+<div id="container">
+    <h1>react-native错误处理</h1>
+
+    <div id="body">
+
+        <p>
+            创建RN项目run-ios后报了Print: Entry, ":CFBundleIdentifier", Does Not Exist错误<br/>
+            tar: Error exit delayed from previous errors.
+        </p>
+        <code>
+            不要直接使用 react-native init ProjectName 创建项目,<br/>
+            后面加个 --version 0.45.0 之前的版本就好了,<br/>
+            比如:<br/>
+            react-native init ProjectName --version 0.44.0
+        </code>
+
+    </div>
+
+    <p class="footer">日期<strong>2017-7-10</strong> </p>
+</div>
+
+</body>
+</html>
